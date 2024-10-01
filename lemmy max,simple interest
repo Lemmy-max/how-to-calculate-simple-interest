@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+float principal,rate,time,compoundp_interest;
+
+printf("Enter the principal amount:");
+scanf("%f",&principal);
+
+prinf("Enter the annual interest rate (in percentage): ");
+scanf("%f",&rate);
+
+printf("Enter the time in years:");
+scanf("%f",&time);
+
+compound_interest:principal*(pow(1+rate/100,time)-1);
+
+printf("The compound interested is: %.2f",compound_interest);
+
+return 0;
+}
+
+
+
+
+
+}
